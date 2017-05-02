@@ -1,0 +1,25 @@
+{
+  "name": "geo-uri-parse",
+  "version": "0.0.1",
+
+  "author": "Dan Howe",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "mocha": "3.1.2",
+    "istanbul": "0.4.4",
+    "rewire": "2.5.2",
+    "sinon": "1.17.6",
+    "eslint": "^2.10.0",
+    "eslint-config-airbnb": "^9.0.0",
+    "eslint-plugin-import": "^1.6.0",
+    "eslint-plugin-jsx-a11y": "^1.0.2",
+    "eslint-plugin-react": "^5.0.1"
+  },
+  "main": "index.js",
+  "scripts": {
+    "coverage": "./node_modules/.bin/istanbul cover _mocha -- --recursive && ./node_modules/.bin/istanbul check-coverage --statement 95 --branch 95 --function 95 --line 95",
+    "lint": "./node_modules/.bin/eslint ./",
+    "test": "./node_modules/.bin/mocha --recursive"
+  }
+}
