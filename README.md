@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/Dan70402/node-geo-uri-parse.svg?branch=master)](https://travis-ci.org/Dan70402/node-geo-uri-parse)
+
 # geo-uri-parse
 * a simple parse of a geo uri based on RFC
 
