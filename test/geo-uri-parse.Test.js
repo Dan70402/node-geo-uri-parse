@@ -1,4 +1,4 @@
-'strict';
+'use strict';
 
 const assert = require('assert');
 const geouri = require('../src/geo-uri-parse').GeoParse;
