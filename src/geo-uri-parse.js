@@ -1,4 +1,3 @@
-'use strict';
 
 class GeoParse {
   static parse(uri) {

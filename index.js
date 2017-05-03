@@ -1,4 +1,3 @@
-'use strict';
 
 const GeoParse = require('.././geo-uri-parse').GeoParse;
 
