@@ -1,7 +1,7 @@
 [![Build Status](https://travis-ci.org/Dan70402/node-geo-uri-parse.svg?branch=master)](https://travis-ci.org/Dan70402/node-geo-uri-parse)
 
 # geo-uri-parse
-* a simple parse of a geo uri based on RFC
+* a simple parse of a geo uri based on [RFC-5870](https://tools.ietf.org/html/rfc5870)
 
 ## What is does:
 - returns a geo uri breakdown object
